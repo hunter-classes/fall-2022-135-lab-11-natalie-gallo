@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include "profile.h"
-#include "network.h"
+//#include "network.h"
 using namespace std;
 
 int main() {
@@ -20,7 +20,7 @@ int main() {
     cout << p2.getFullName() << endl; // Tarma Roving (@tarma1)
 
     //TASK B
-      Network nw;
+    /*Network nw;
     cout << nw.addUser("mario", "Mario") << endl;     // true (1)
     cout << nw.addUser("luigi", "Luigi") << endl;     // true (1)
 
@@ -33,4 +33,6 @@ int main() {
                     "Mario" + to_string(i)) << endl;   // true (1)
 
     cout << nw.addUser("yoshi", "Yoshi") << endl;     // false (0)
+  */
+  return 0;
 }
