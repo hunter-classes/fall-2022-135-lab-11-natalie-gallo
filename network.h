@@ -1,4 +1,7 @@
 #pragma once
+#include <string>
+#include "profile.h"
+using namespace std;
 
 class Network {
 private:
